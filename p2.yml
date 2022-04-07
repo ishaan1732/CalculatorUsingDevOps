@@ -3,6 +3,6 @@
   hosts: all
   tasks:
     - name: sahajv/scientific_calc
-      docker:
+      docker_image:
         name: sahajv/scientific_calc
         source: pull
