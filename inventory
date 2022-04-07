@@ -1,2 +1,2 @@
 [ubuntu18]
-172.22.4.142 ansible_user=sahaj
+172.16.164.209 ansible_user=sahaj
