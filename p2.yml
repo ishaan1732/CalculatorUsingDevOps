@@ -2,7 +2,7 @@
 - name: Deploy a jar file
   hosts: all
   tasks:
-    - name: sahajv/scientific_calc
+    - name: ishaan1732/scientific_calc
       docker_image:
-        name: sahajv/scientific_calc
+        name: ishaan1732/scientific_calc
         source: pull
