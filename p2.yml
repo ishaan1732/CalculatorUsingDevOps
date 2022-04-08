@@ -2,7 +2,7 @@
 - name: Deploy a jar file
   hosts: all
   tasks:
-    - name: ishaan1732/scientific_calc
+    - name: ishaan1732/calculator
       docker_image:
-        name: ishaan1732/scientific_calc
+        name: ishaan1732/calculator
         source: pull
